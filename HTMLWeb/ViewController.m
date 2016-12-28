@@ -25,6 +25,7 @@
     [wb sizeToFit];
     wb.delegate=self;
     [wb loadHTMLString:testStr baseURL:nil];
+    NSLog(@"test");
 }
 
 //点击web
